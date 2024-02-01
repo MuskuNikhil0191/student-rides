@@ -1,0 +1,18 @@
+.showall{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXoW3v9ugCqA_VVE6TltHWjj1L0SnV_tT3rsKHI11rSH-lm40zkIyWMQ8Z9RndmCf8dw&usqp=CAU");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-attachment:fixed;
+    font-size: larger;
+    padding:5%;
+    min-height: 100vh;
+}
+.box{
+    border-radius: 5px;
+    color:darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box input{
+    border-radius: 10px;
+}

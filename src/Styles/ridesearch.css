@@ -1,0 +1,11 @@
+.search{
+    height: 100vh;
+    /* background-image: url("https://img.freepik.com/free-vector/happy-family-travelling-automobile-isolated-flat-vector-illustration-front-view-cartoon-father-mother-son-daughter-car_74855-8399.jpg?w=2000&t=st=1682518534~exp=1682519134~hmac=d877e972cbaeda1e9b88de258c4a7243b9a06f144230b2b533afc19500a9eae0"); */
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-traffic-safety-poster-background-image_261847.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-attachment:fixed;
+    font-size: larger;
+    padding:15px;
+}

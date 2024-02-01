@@ -1,0 +1,14 @@
+a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+.anchor{
+    color:white;
+    text-decoration: none;
+}
+.footr{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+}

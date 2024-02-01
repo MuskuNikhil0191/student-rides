@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Footer from "./Components/Footer";
+import NavbarComponent from "./Components/NavbarComponent";
+import RoutesComponent from "./Routing/RoutesComponent";
+import { AuthProvider } from "./Utils/Auth";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App m-0">
+      <AuthProvider>
+        <div style={{}}>
+          <NavbarComponent />
+        </div>
+        <div style={{ minHeight: "100vh" }}>
+          <RoutesComponent />
+        </div>
+        <div style={{}}>
+          <Footer />
+        </div>
+      </AuthProvider>
     </div>
   );
 }

@@ -1,0 +1,8 @@
+.post{
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-vector/family-journey-by-car-nature_165429-153.jpg?w=2000");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-attachment:fixed;
+}

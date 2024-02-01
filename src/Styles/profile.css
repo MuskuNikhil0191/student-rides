@@ -1,0 +1,19 @@
+.profile{
+    min-height: 100vh;
+    background-image: url("https://arapahoelibraries.org/wp-content/uploads/sites/28/2021/12/shutterstock_1864174147.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-attachment:fixed;
+    padding:15px;
+}
+.box1{
+    border-radius: 15px;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+.box input{
+    border-radius: 10px;
+}

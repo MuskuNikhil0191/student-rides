@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+body {
+  height: 2000px;
+}
+
+p:hover{
+  cursor:default;
+}
+
+.nav-link.active{
+  font-weight:bolder;
+  font-style:oblique;
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+  
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.nav-link:hover{
+    border: 2px white solid;
+    transition: 0.2s;
+    color: white;
+}
